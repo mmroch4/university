@@ -64,7 +64,6 @@
    find -size +1M
    ```
 
-
 11. ```bash
    cat lines.txt | grep -E '^[a-zA-Z]+[0-9]+$'
    ```
