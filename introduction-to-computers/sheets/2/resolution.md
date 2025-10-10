@@ -61,7 +61,9 @@
    ```
 
 10. ```bash
+
    find -size +1M
+
    ```
 
 11. ```bash
