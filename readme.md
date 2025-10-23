@@ -38,11 +38,12 @@ This repository is organized by course. Each folder contains exercises, assignme
 
 Below is a list of courses included in this repository:
 
-| Course | Folder | Status |
-|--------|--------|--------|
-| **Introduction to Programming** | `introduction-to-programming/` | 🔄 In Progress |
-| **Introduction to Computers** | `introduction-to-computers/` | 🔄 In Progress |
-| *More courses will be added as I progress through the degree* | | 🔜 |
+| Course                                                        | Folder                          | Status         |
+| ------------------------------------------------------------- | ------------------------------- | -------------- |
+| **Introduction to Programming**                               | `introduction-to-programming/`  | 🔄 In Progress |
+| **Introduction to Computers**                                 | `introduction-to-computers/`    | 🔄 In Progress |
+| **Competitive Programming (2025-2026)**                       | `competitive-programming/2025/` | 🔄 In Progress |
+| _More courses will be added as I progress through the degree_ |                                 | 🔜             |
 
 ## 🤝 Contributing & Usage
 
@@ -60,8 +61,8 @@ Want to chat about code, collaborate, or just say hi? Feel free to reach out thr
 
 ---
 
-<div align="center" style="margin-block: 20px">
+<p align="center" style="margin-block: 20px">
 
 **⭐ Star this repo if you find it helpful!**
 
-</div>
+</p>
