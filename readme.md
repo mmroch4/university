@@ -1,4 +1,4 @@
-# FCUP - Computer Science Degree Exercises
+# FCUP - Bachelor of Computer Science
 
 > This repository contains exercises and projects completed during my Bachelor's degree in Computer Science at [Faculdade de Ciências da Universidade do Porto (FCUP)](https://www.fc.up.pt/).
 
