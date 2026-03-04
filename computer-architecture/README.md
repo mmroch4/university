@@ -10,7 +10,8 @@
 ```txt
 computer-architecture/
 └── 📁 sheets/           # Exercise sheets
-    └── 1/
+    ├── 1/
+    └── 2/
 ```
 
 ## 📝 Sheets
@@ -18,6 +19,7 @@ computer-architecture/
 | Sheet | Topic                    | Exercises | Description                                                                     |
 | ----- | ------------------------ | --------- | ------------------------------------------------------------------------------- |
 | 1     | C Compilation Pipeline   | 3         | GCC stages (preprocessing, compilation, assembly, linking) and optimizations    |
+| 2     | Integer Representation   | 7         | Binary/decimal/hex conversions, signed/unsigned, sign extension, and arithmetic |
 
 ### Sheet 1 — C Compilation Pipeline
 
@@ -28,6 +30,18 @@ Each exercise includes the full compilation artifacts (`.i`, `.s`, `-optimized.s
 | 1        | Multiplication table stored in an array — demonstrates dead code elimination when optimized |
 | 2        | Multiplication table with `printf` output — linking with standard I/O       |
 | 3        | String encryption with `crypt()` — conditional compilation (`#ifdef DEBUG`) and linking with `-lcrypt` |
+
+### Sheet 2 — Integer Representation
+
+| Exercise | Description                                                                     |
+| -------- | ------------------------------------------------------------------------------- |
+| 1        | Decimal to binary conversion (8 bits, unsigned)                                 |
+| 2        | Binary to decimal conversion (8 bits, unsigned)                                 |
+| 3        | Decimal to binary conversion (8 bits, signed / two's complement)                |
+| 4        | Binary to decimal conversion (8 bits, signed / two's complement)                |
+| 5        | Sign extension from 8 bits to 16 bits (signed)                                  |
+| 6        | Binary to hexadecimal conversion (32 bits)                                      |
+| 7        | Arithmetic operations with overflow detection (8 bits, signed)                  |
 
 ## 🔗 Resources
 
