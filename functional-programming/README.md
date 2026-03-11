@@ -10,15 +10,17 @@
 functional-programming/
 └── 📁 sheets/           # Exercise sheets
     ├── 1/
-    └── 2/
+    ├── 2/
+    └── 3/
 ```
 
 ## 📝 Sheets
 
 | Sheet | Topic                    | Exercises | Description                                                       |
 | ----- | ------------------------ | --------- | ----------------------------------------------------------------- |
-| 1     | Types, Functions & Lists | 13        | Basic functions, list operations, type inference, and polymorphism |
-| 2     | Guards, Patterns & Recursion | 8     | Guards, pattern matching, `where` clauses, tuples, and recursion  |
+| 1     | Types, Functions & Lists         | 13        | Basic functions, list operations, type inference, and polymorphism       |
+| 2     | Guards, Patterns & Recursion     | 8         | Guards, pattern matching, `where` clauses, tuples, and recursion        |
+| 3     | List Comprehensions              | 10        | List comprehensions, number theory, tuples, and password validation     |
 
 ### Sheet 1 — Types, Functions & Lists
 
@@ -50,6 +52,21 @@ functional-programming/
 | 6        | `safetail` — three implementations (conditional, guards, pattern matching)   |
 | 7        | `short` — check if list has at most 2 elements (two approaches)             |
 | 8        | Number-to-words converter (integers up to 999 999) using string manipulation |
+
+### Sheet 3 — List Comprehensions
+
+| Exercise | Description                                                                      |
+| -------- | -------------------------------------------------------------------------------- |
+| 1        | Sum of squares from 1 to `n` using list comprehension                            |
+| 2        | Two approximations of pi using Leibniz and Euler series                          |
+| 3        | Proper divisors of an integer using list comprehension                           |
+| 4        | Perfect numbers up to `n`                                                        |
+| 5        | Primality test using list comprehension                                          |
+| 6        | Pascal's triangle using binomial coefficients                                    |
+| 7        | Dot product of two vectors using `zip`                                           |
+| 8        | Pythagorean triples up to `n`                                                    |
+| 9        | Password strength validator (length, lowercase, uppercase, digits)               |
+| 10       | Integer power using list comprehension                                           |
 
 ## 🔗 Resources
 
