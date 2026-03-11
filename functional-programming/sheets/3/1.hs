@@ -1,0 +1,1 @@
+squareSum n = sum [x * x | x <- [1..n]]
