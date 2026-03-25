@@ -11,7 +11,8 @@ functional-programming/
 └── 📁 sheets/           # Exercise sheets
     ├── 1/
     ├── 2/
-    └── 3/
+    ├── 3/
+    └── 4/
 ```
 
 ## 📝 Sheets
@@ -21,6 +22,7 @@ functional-programming/
 | 1     | Types, Functions & Lists         | 13        | Basic functions, list operations, type inference, and polymorphism       |
 | 2     | Guards, Patterns & Recursion     | 8         | Guards, pattern matching, `where` clauses, tuples, and recursion        |
 | 3     | List Comprehensions              | 10        | List comprehensions, number theory, tuples, and password validation     |
+| 4     | Recursion & Algorithms           | 19        | Recursive functions, base conversions, sorting algorithms, and combinatorics |
 
 ### Sheet 1 — Types, Functions & Lists
 
@@ -67,6 +69,30 @@ functional-programming/
 | 8        | Pythagorean triples up to `n`                                                    |
 | 9        | Password strength validator (length, lowercase, uppercase, digits)               |
 | 10       | Integer power using list comprehension                                           |
+
+### Sheet 4 — Recursion & Algorithms
+
+| Exercise | Description                                                                       |
+| -------- | --------------------------------------------------------------------------------- |
+| 1        | Extract digits of an integer using power-of-10 decomposition                      |
+| 2        | Decimal to binary conversion via powers of 2                                      |
+| 3        | Binary to decimal conversion recursively                                          |
+| 4        | Compute 2^n via simple recursion                                                  |
+| 5        | Custom `replicate`, `(!!)`, and `elem` using recursion                            |
+| 6        | Alternative `replicate` and `(!!)` using list comprehensions                      |
+| 7        | Integer square root (`isqrt`) using iterative approximation                       |
+| 8        | Factorial via range product recursion                                             |
+| 9        | Euclidean GCD algorithm                                                           |
+| 10       | Custom `nub` (duplicate removal) with helper `exists`                             |
+| 11       | `intersperse` — insert separator between list elements                            |
+| 12       | `maxFun` — find maximum function value over a range                               |
+| 13       | `anyZero` — check if a function has a zero in a range                             |
+| 14       | `sumFun` — sum function values over a range                                       |
+| 15       | Insertion sort (`insert` and `isort`)                                             |
+| 16       | Selection sort (`minimum`, `delete`, and `ssort`)                                 |
+| 17       | Merge sort (`merge`, `half`, and `msort`)                                         |
+| 18       | Generate all boolean vectors of length `n`                                        |
+| 19       | Generate all permutations of a list                                               |
 
 ## 🔗 Resources
 
