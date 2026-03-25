@@ -11,15 +11,21 @@
 computer-architecture/
 └── 📁 sheets/           # Exercise sheets
     ├── 1/
-    └── 2/
+    ├── 2/
+    ├── 3/
+    ├── 4/
+    └── 5/
 ```
 
 ## 📝 Sheets
 
 | Sheet | Topic                    | Exercises | Description                                                                     |
 | ----- | ------------------------ | --------- | ------------------------------------------------------------------------------- |
-| 1     | C Compilation Pipeline   | 3         | GCC stages (preprocessing, compilation, assembly, linking) and optimizations    |
-| 2     | Integer Representation   | 7         | Binary/decimal/hex conversions, signed/unsigned, sign extension, and arithmetic |
+| 1     | C Compilation Pipeline              | 3         | GCC stages (preprocessing, compilation, assembly, linking) and optimizations              |
+| 2     | Integer Representation              | 7         | Binary/decimal/hex conversions, signed/unsigned, sign extension, and arithmetic           |
+| 3     | Floating-Point Representation       | 2         | IEEE 754 float ↔ decimal conversions (single precision)                                   |
+| 4     | MIPS R2000 Instruction Representation | 2       | Encoding/decoding MIPS instructions (R-type, I-type, J-type) in binary                   |
+| 5     | MIPS R2000 Assembly Programming     | 6         | Assembly ↔ C translation, MIPS programs with syscalls, pseudo-instructions, bit operations |
 
 ### Sheet 1 — C Compilation Pipeline
 
@@ -42,6 +48,31 @@ Each exercise includes the full compilation artifacts (`.i`, `.s`, `-optimized.s
 | 5        | Sign extension from 8 bits to 16 bits (signed)                                  |
 | 6        | Binary to hexadecimal conversion (32 bits)                                      |
 | 7        | Arithmetic operations with overflow detection (8 bits, signed)                  |
+
+### Sheet 3 — Floating-Point Representation
+
+| Exercise | Description                                                        |
+| -------- | ------------------------------------------------------------------ |
+| 1        | IEEE 754 single-precision binary → decimal conversion (5 values)   |
+| 2        | Decimal → IEEE 754 single-precision binary conversion (2 values)   |
+
+### Sheet 4 — MIPS R2000 Instruction Representation
+
+| Exercise | Description                                                                              |
+| -------- | ---------------------------------------------------------------------------------------- |
+| 1        | Decode binary machine code into MIPS assembly (R, I, J formats)                          |
+| 2        | Encode MIPS assembly sequences into binary machine code with address/offset calculations  |
+
+### Sheet 5 — MIPS R2000 Assembly Programming
+
+| Exercise | Description                                                                                    |
+| -------- | ---------------------------------------------------------------------------------------------- |
+| 1        | Translate MIPS assembly to C — register arithmetic, array access with offsets, and loop patterns |
+| 2        | Translate C to MIPS assembly — shifts, array indexing, and nested array lookups                  |
+| 3        | Trace a MIPS program that computes the sum of squares (0–99) with syscall I/O                   |
+| 4        | Trace a MIPS program that computes string length using a procedure call (`jal`/`jr`)            |
+| 5        | Rewrite pseudo-instructions (`not`, `bge`) using base MIPS instructions                        |
+| 6        | Evaluate MIPS bitwise/shift sequences and determine final register values                       |
 
 ## 🔗 Resources
 

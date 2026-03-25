@@ -49,9 +49,9 @@ Below is a list of courses included in this repository:
 | **Introduction to Computers**   | `introduction-to-computers/`   | 1st      | ✅ Completed   |
 | **Calculus II**                  | `calculus-II/`                 | 2nd      | 🔜 Planned     |
 | **Computation Models**          | `computation-models/`          | 2nd      | 🔜 Planned     |
-| **Computer Architecture**       | `computer-architecture/`       | 2nd      | 🔜 Planned     |
+| **Computer Architecture**       | `computer-architecture/`       | 2nd      | 🔄 In Progress |
 | **Functional Programming**      | `functional-programming/`      | 2nd      | 🔄 In Progress |
-| **Imperative Programming**      | `imperative-programming/`      | 2nd      | 🔜 Planned     |
+| **Imperative Programming**      | `imperative-programming/`      | 2nd      | 🔄 In Progress |
 | **Competitive Programming**     | `competitive-programming/`     | Extra    | 🔄 In Progress |
 
 ## 🤝 Contributing & Usage
