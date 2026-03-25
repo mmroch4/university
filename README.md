@@ -50,7 +50,7 @@ Below is a list of courses included in this repository:
 | **Calculus II**                  | `calculus-II/`                 | 2nd      | 🔜 Planned     |
 | **Computation Models**          | `computation-models/`          | 2nd      | 🔜 Planned     |
 | **Computer Architecture**       | `computer-architecture/`       | 2nd      | 🔜 Planned     |
-| **Functional Programming**      | `functional-programming/`      | 2nd      | 🔜 Planned     |
+| **Functional Programming**      | `functional-programming/`      | 2nd      | 🔄 In Progress |
 | **Imperative Programming**      | `imperative-programming/`      | 2nd      | 🔜 Planned     |
 | **Competitive Programming**     | `competitive-programming/`     | Extra    | 🔄 In Progress |
 
