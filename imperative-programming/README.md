@@ -36,7 +36,7 @@ Selected classroom sheets. Coverage is partial — only the sheets worked throug
 
 `mooshak/exercises/` holds **52 solved problems** from [Mooshak](https://mooshak.dcc.fc.up.pt/),
 the online judge used to grade the course. Problems are numbered to match the judge's
-problem set (`1`–`72`, with gaps for problems not attempted). Each folder contains:
+problem set. Each folder contains:
 
 - `index.c` — the accepted solution (a few problems split parts into `1.c` / `2.c`)
 - `*.txt` — sample input cases used to test the program locally
