@@ -27,7 +27,7 @@ introduction-to-computers/
 | 2  | Shell Scripting & Text Processing    | Complete    |
 | 3  | Computer Hardware & Architecture     | Complete    |
 | 9  | Advanced Shell Commands              | Complete    |
-| 11 | Directory Operations & Shell Scripts | In Progress |
+| 11 | Directory Operations & Shell Scripts | Complete    |
 
 > **Note:** Sheet numbering is non-sequential — sheets 4–8 and 10 have not been added yet.
 

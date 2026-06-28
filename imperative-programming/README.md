@@ -9,25 +9,38 @@
 
 ```txt
 imperative-programming/
-└── 📁 exercises/        # Exercise sheets organized by topic
-    ├── 1/
-    ├── 2/
-    └── .../7/
+├── 📁 sheets/             # Classroom exercise sheets
+│   ├── 1/                 # one folder per exercise (index.c)
+│   ├── 2/                 # sub-exercises split as 1.c, 2.c, …
+│   ├── 3/
+│   └── 8/
+└── 📁 mooshak/            # Solutions to the Mooshak online judge
+    └── exercises/         # one folder per problem (index.c + sample I/O)
 ```
 
-## 📝 Exercises
+Compiled binaries (`index.out`, `*.out`) and sample input files (`*.txt`) are kept
+alongside each source for quick local testing.
 
-14 exercises across 7 sheets, covering core C programming concepts:
+## 📝 Sheets
 
-| Sheet | Topic                  | Exercises | Description                                                        |
-| ----- | ---------------------- | --------- | ------------------------------------------------------------------ |
-| 1     | Loops & Output         | 1         | Print odd numbers from 1 to 20 and their sum                      |
-| 2     | Nested Loops           | 1         | Read `n` and print an `n x n` checkerboard pattern                |
-| 3     | Digits & Sequences     | 2         | Count/sum digits of an integer; longest run of non-negative values |
-| 4     | Pattern Printing       | 2         | Right-aligned staircase; vertical/horizontal diamond               |
-| 5     | Geometry               | 2         | Volume of a rectangular box; volume of a cone                      |
-| 6     | Conditionals & Arrays  | 3         | Tiered price discount; day-of-year to date converter; triangle classifier |
-| 7     | Functions & Arithmetic | 5         | Quadratic equation solver; prime factorization; LCM via prime factors; integer power; currency change calculator |
+Selected classroom sheets. Coverage is partial — only the sheets worked through are included.
+
+| Sheet | Topic                          | Description                                                                 |
+| ----- | ------------------------------ | --------------------------------------------------------------------------- |
+| 1     | Loops & Output                 | Print odd numbers and their sum; draw an `n × n` checkerboard pattern        |
+| 2     | Patterns & Geometry            | Staircase/triangle patterns; box volume; quadratic equation solver (`math.h`) |
+| 3     | Stream Processing & Simulation | Character-by-character input until EOF (digit/word counting); a grid animation |
+| 8     | Functions, Assertions & Data   | GCD, min/max-of-3, string→integer parsing, char removal, structs, sorted insertion (using `assert`) |
+
+## ⚖️ Mooshak
+
+`mooshak/exercises/` holds **52 solved problems** from [Mooshak](https://mooshak.dcc.fc.up.pt/),
+the online judge used to grade the course. Problems are numbered to match the judge's
+problem set (`1`–`72`, with gaps for problems not attempted). Each folder contains:
+
+- `index.c` — the accepted solution (a few problems split parts into `1.c` / `2.c`)
+- `*.txt` — sample input cases used to test the program locally
+- `index.out` — the locally compiled binary
 
 ## 🔗 Resources
 

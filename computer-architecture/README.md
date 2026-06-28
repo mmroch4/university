@@ -10,11 +10,9 @@
 ```txt
 computer-architecture/
 └── 📁 sheets/           # Exercise sheets
-    ├── 1/
-    ├── 2/
-    ├── 3/
-    ├── 4/
-    └── 5/
+    ├── 1/               # Full compilation artifacts (.i, .s, .o, .out)
+    ├── 2/ … 7/          # Markdown write-ups
+    └── 10/
 ```
 
 ## 📝 Sheets
@@ -25,7 +23,12 @@ computer-architecture/
 | 2     | Integer Representation              | 7         | Binary/decimal/hex conversions, signed/unsigned, sign extension, and arithmetic           |
 | 3     | Floating-Point Representation       | 2         | IEEE 754 float ↔ decimal conversions (single precision)                                   |
 | 4     | MIPS R2000 Instruction Representation | 2       | Encoding/decoding MIPS instructions (R-type, I-type, J-type) in binary                   |
-| 5     | MIPS R2000 Assembly Programming     | 6         | Assembly ↔ C translation, MIPS programs with syscalls, pseudo-instructions, bit operations |
+| 5     | MIPS R2000 Assembly Programming (I)   | 6         | Assembly ↔ C translation, MIPS programs with syscalls, pseudo-instructions, bit operations |
+| 6     | MIPS R2000 Assembly Programming (II)  | 3         | C → assembly translation: loops, sum of squares, and accumulation patterns                 |
+| 7     | MIPS R2000 Assembly Programming (III) | 3         | Procedures and recursion in MIPS (`jal`/`jr`), recursive Fibonacci and the runtime stack    |
+| 10    | Memory Hierarchy (I)                  | 2         | Cache addressing — tag/index decomposition, direct-mapped vs. set-associative caches        |
+
+> **Note:** Sheets 8 and 9 are not included.
 
 ### Sheet 1 — C Compilation Pipeline
 
@@ -73,6 +76,29 @@ Each exercise includes the full compilation artifacts (`.i`, `.s`, `-optimized.s
 | 4        | Trace a MIPS program that computes string length using a procedure call (`jal`/`jr`)            |
 | 5        | Rewrite pseudo-instructions (`not`, `bge`) using base MIPS instructions                        |
 | 6        | Evaluate MIPS bitwise/shift sequences and determine final register values                       |
+
+### Sheet 6 — MIPS R2000 Assembly Programming (II)
+
+| Exercise | Description                                                                |
+| -------- | -------------------------------------------------------------------------- |
+| 1        | Translate a C sum-of-squares loop into MIPS assembly with syscall I/O      |
+| 2        | C → assembly translation of an accumulation loop                           |
+| 3        | C → assembly translation with conditional control flow                     |
+
+### Sheet 7 — MIPS R2000 Assembly Programming (III)
+
+| Exercise | Description                                                                    |
+| -------- | ------------------------------------------------------------------------------ |
+| 1        | Recursive Fibonacci in MIPS — procedure calls (`jal`/`jr`) and stack frames    |
+| 2        | Recursive procedure with argument passing and return values                    |
+| 3        | Procedure calls with saved registers and the runtime stack                     |
+
+### Sheet 10 — Memory Hierarchy (I)
+
+| Exercise | Description                                                                              |
+| -------- | ---------------------------------------------------------------------------------------- |
+| 1        | Split addresses into tag and index fields for different cache geometries                 |
+| 2        | Compare direct-mapped and set-associative cache organizations (line count, associativity) |
 
 ## 🔗 Resources
 

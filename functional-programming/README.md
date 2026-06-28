@@ -8,11 +8,15 @@
 
 ```txt
 functional-programming/
-└── 📁 sheets/           # Exercise sheets
-    ├── 1/
-    ├── 2/
-    ├── 3/
-    └── 4/
+├── 📁 sheets/           # Exercise sheets
+│   ├── 1/
+│   ├── 2/
+│   ├── 3/
+│   ├── 4/
+│   ├── 5/
+│   └── 6/
+└── 📁 tests/            # Past test papers
+    └── 2024-2025/
 ```
 
 ## 📝 Sheets
@@ -23,6 +27,8 @@ functional-programming/
 | 2     | Guards, Patterns & Recursion     | 8         | Guards, pattern matching, `where` clauses, tuples, and recursion        |
 | 3     | List Comprehensions              | 10        | List comprehensions, number theory, tuples, and password validation     |
 | 4     | Recursion & Algorithms           | 19        | Recursive functions, base conversions, sorting algorithms, and combinatorics |
+| 5     | Higher-Order Functions           | 6         | `map`, `filter`, `foldr`/`foldl` — rebuilding list functions and sorts via folds |
+| 6     | Infinite Lists & Laziness        | 5         | Lazy/infinite lists — Fibonacci, prefix sums, Pascal's triangle, string generation |
 
 ### Sheet 1 — Types, Functions & Lists
 
@@ -93,6 +99,33 @@ functional-programming/
 | 17       | Merge sort (`merge`, `half`, and `msort`)                                         |
 | 18       | Generate all boolean vectors of length `n`                                        |
 | 19       | Generate all permutations of a list                                               |
+
+### Sheet 5 — Higher-Order Functions
+
+| Exercise | Description                                                                  |
+| -------- | ---------------------------------------------------------------------------- |
+| 1        | Rewrite the comprehension `[f x \| x ← xs, p x]` using `map` and `filter`      |
+| 2        | `(++)`, `concat`, and `reverse` implemented with `foldr`                      |
+| 3        | `dec2int` — convert a digit list to an integer using `foldl`/`foldr`          |
+| 4        | Custom `zipWith` via recursion                                                |
+| 5        | Insertion sort built with `foldr` and `Data.List.insert`                      |
+| 6        | `shift` and `rotate` (all rotations of a list) using `foldr`                  |
+
+### Sheet 6 — Infinite Lists & Laziness
+
+| Exercise | Description                                                              |
+| -------- | ------------------------------------------------------------------------ |
+| 1        | Infinite `factorial` and `fibonacci` lists via self-reference            |
+| 2        | `merge` of two ordered lists (in progress)                               |
+| 3        | `sums` — running prefix sums of a list                                   |
+| 4        | Pascal's triangle as an infinite list of rows                            |
+| 6        | `stringsN` — generate all strings of length `n` over the alphabet `a–z`  |
+
+## 📄 Tests
+
+| Academic Year | Contents                          |
+| ------------- | --------------------------------- |
+| 2024-2025     | Test #1 paper (`test.pdf`)        |
 
 ## 🔗 Resources
 
