@@ -1,0 +1,91 @@
+100
+2 2 1 1
+WB
+BB
+2 2 1 2
+BW
+BB
+2 2 1 1
+WW
+BB
+2 2 1 2
+WW
+BB
+2 2 2 1
+BB
+WB
+2 2 1 1
+WB
+WB
+2 2 2 1
+WB
+WB
+2 2 1 2
+BW
+WB
+2 2 2 1
+BW
+WB
+2 2 1 1
+WW
+WB
+2 2 1 2
+WW
+WB
+2 2 2 1
+WW
+WB
+2 2 2 2
+BB
+BW
+2 2 1 1
+WB
+BW
+2 2 2 2
+WB
+BW
+2 2 1 2
+BW
+BW
+2 2 2 2
+BW
+BW
+2 2 1 1
+WW
+BW
+2 2 1 2
+WW
+BW
+2 2 2 2
+WW
+BW
+2 2 2 1
+BB
+WW
+2 2 2 2
+BB
+WW
+2 2 1 1
+WB
+WW
+2 2 2 1
+WB
+WW
+2 2 2 2
+WB
+WW
+2 2 1 2
+BW
+WW
+2 2 2 1
+BW
+WW
+2 2 2 2
+BW
+WW
+2 2 1 1
+WW
+WW
+2 2 1 2
+WW
+...
