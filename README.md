@@ -21,15 +21,19 @@ Hey! I'm **Miguel Rocha**, a Computer Science student at [FCUP](https://www.fc.u
 This repository is organized by course. Each folder contains exercises, assignments, and projects from the respective subject.
 
 ```txt
-📁 introduction-to-programming/    # 1st semester
-📁 introduction-to-computers/      # 1st semester
-📁 calculus-II/                     # 2nd semester
-📁 computation-models/              # 2nd semester
-📁 computer-architecture/           # 2nd semester
-📁 functional-programming/          # 2nd semester
-📁 imperative-programming/          # 2nd semester
-📁 competitive-programming/         # Extracurricular
+📁 introduction-to-programming/    # 1st year, 1st semester
+📁 introduction-to-computers/      # 1st year, 1st semester
+📁 calculus-II/                    # 1st year, 2nd semester
+📁 computation-models/             # 1st year, 2nd semester
+📁 computer-architecture/          # 1st year, 2nd semester
+📁 functional-programming/         # 1st year, 2nd semester
+📁 imperative-programming/         # 1st year, 2nd semester
+📁 databases/                      # 2nd year, 1st semester
+📁 data-structures/                # 2nd year, 1st semester
+📁 competitive-programming/        # Extracurricular (2025/26), enrolled (2026/27)
 ```
+
+Each course folder has its own `README.md`, following the [course README template](.claude/skills/update-course-docs/template.md).
 
 **What's inside each folder?**
 
@@ -43,16 +47,18 @@ This repository is organized by course. Each folder contains exercises, assignme
 
 Below is a list of courses included in this repository:
 
-| Course                          | Folder                         | Semester | Status         |
-| ------------------------------- | ------------------------------ | -------- | -------------- |
-| **Introduction to Programming** | `introduction-to-programming/` | 1st      | ✅ Completed   |
-| **Introduction to Computers**   | `introduction-to-computers/`   | 1st      | ✅ Completed   |
-| **Calculus II**                 | `calculus-II/`                 | 2nd      | ✅ Completed   |
-| **Computation Models**          | `computation-models/`          | 2nd      | ✅ Completed   |
-| **Computer Architecture**       | `computer-architecture/`       | 2nd      | ✅ Completed   |
-| **Functional Programming**      | `functional-programming/`      | 2nd      | ✅ Completed   |
-| **Imperative Programming**      | `imperative-programming/`      | 2nd      | ✅ Completed   |
-| **Competitive Programming**     | `competitive-programming/`     | Extra    | 🔄 Ongoing     |
+| Course | Folder | Year | Semester | Status |
+| --- | --- | --- | --- | --- |
+| **Introduction to Programming** | `introduction-to-programming/` | 1st | 1st | ✅ Completed |
+| **Introduction to Computers** | `introduction-to-computers/` | 1st | 1st | ✅ Completed |
+| **Calculus II** | `calculus-II/` | 1st | 2nd | ✅ Completed |
+| **Computation Models** | `computation-models/` | 1st | 2nd | ✅ Completed |
+| **Computer Architecture** | `computer-architecture/` | 1st | 2nd | ✅ Completed |
+| **Functional Programming** | `functional-programming/` | 1st | 2nd | ✅ Completed |
+| **Imperative Programming** | `imperative-programming/` | 1st | 2nd | ✅ Completed |
+| **Databases** | `databases/` | 2nd | 1st | 🔄 Ongoing |
+| **Data Structures** | `data-structures/` | 2nd | 1st | 🔄 Ongoing |
+| **Competitive Programming** | `competitive-programming/` | 2nd (extra in 1st) | — | 🔄 Ongoing |
 
 ## 🤝 Contributing & Usage
 

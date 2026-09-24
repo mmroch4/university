@@ -1,9 +1,19 @@
 # ⌨️ Imperative Programming
 
-> Exercises from the **Imperative Programming** course (C) at [FCUP](https://www.fc.up.pt/) — 1st year, 2nd semester.
+> Course materials for **Imperative Programming** (C — sheets and Mooshak problems) at [FCUP](https://www.fc.up.pt/).
 
 [![Course Page](https://img.shields.io/badge/Course-Material-blue?style=for-the-badge)](https://www.dcc.fc.up.pt/~fds/aulas/pi/2526/)
 [![C](https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=black)](https://en.wikipedia.org/wiki/C_(programming_language))
+
+## ℹ️ Overview
+
+| Field | Value |
+| --- | --- |
+| Year | 1st |
+| Semester | 2nd |
+| Academic year | 2025/2026 |
+| Language / Tools | C |
+| Status | ✅ Completed |
 
 ## 📂 Directory Structure
 

@@ -1,6 +1,16 @@
 # 🧮 Calculus II
 
-> Course materials for **Calculus II** (integral calculus, series, differential equations) at [FCUP](https://www.fc.up.pt/) — 1st year, 2nd semester.
+> Course materials for **Calculus II** (integral calculus, series, differential equations) at [FCUP](https://www.fc.up.pt/).
+
+## ℹ️ Overview
+
+| Field | Value |
+| --- | --- |
+| Year | 1st |
+| Semester | 2nd |
+| Academic year | 2025/2026 |
+| Language / Tools | — |
+| Status | ✅ Completed |
 
 ## 🔗 Resources
 

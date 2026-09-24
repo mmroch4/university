@@ -1,9 +1,19 @@
 # 💻 Introduction to Computers
 
-> Exercise sheets from the **Introduction to Computers** course (Bash/Linux, Computer Architecture) at [FCUP](https://www.fc.up.pt/) — 1st year, 1st semester.
+> Course materials for **Introduction to Computers** (Bash/Linux, computer architecture — exercise sheets) at [FCUP](https://www.fc.up.pt/).
 
 [![Course Page](https://img.shields.io/badge/Course-Material-blue?style=for-the-badge)](https://www.dcc.fc.up.pt/~miguel-areias/teaching/2526/ic/index.html)
 [![Bash](https://img.shields.io/badge/Bash-Shell-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white)](https://www.gnu.org/software/bash/)
+
+## ℹ️ Overview
+
+| Field | Value |
+| --- | --- |
+| Year | 1st |
+| Semester | 1st |
+| Academic year | 2025/2026 |
+| Language / Tools | Bash |
+| Status | ✅ Completed |
 
 ## 📂 Directory Structure
 
@@ -17,7 +27,7 @@ introduction-to-computers/
     └── 11/
 ```
 
-## 📝 Exercise Sheets
+## 📝 Sheets
 
 5 exercise sheets covering Linux/Bash and computer hardware topics:
 

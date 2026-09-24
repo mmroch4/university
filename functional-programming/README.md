@@ -1,8 +1,18 @@
 # λ Functional Programming
 
-> Course materials for **Functional Programming** (Haskell) at [FCUP](https://www.fc.up.pt/) — 1st year, 2nd semester.
+> Course materials for **Functional Programming** (Haskell — sheets and past tests) at [FCUP](https://www.fc.up.pt/).
 
 [![Haskell](https://img.shields.io/badge/Haskell-5D4F85?style=for-the-badge&logo=haskell&logoColor=white)](https://www.haskell.org/)
+
+## ℹ️ Overview
+
+| Field | Value |
+| --- | --- |
+| Year | 1st |
+| Semester | 2nd |
+| Academic year | 2025/2026 |
+| Language / Tools | Haskell |
+| Status | ✅ Completed |
 
 ## 📂 Directory Structure
 

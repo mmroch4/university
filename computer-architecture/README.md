@@ -1,9 +1,19 @@
 # 🖥️ Computer Architecture
 
-> Course materials for **Computer Architecture** (computer organization, hardware/software interface) at [FCUP](https://www.fc.up.pt/) — 1st year, 2nd semester.
+> Course materials for **Computer Architecture** (computer organization, hardware/software interface) at [FCUP](https://www.fc.up.pt/).
 
 [![C](https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=black)](https://en.wikipedia.org/wiki/C_(programming_language))
 [![x86-64](https://img.shields.io/badge/x86--64-Assembly-red?style=for-the-badge)](https://en.wikipedia.org/wiki/X86-64)
+
+## ℹ️ Overview
+
+| Field | Value |
+| --- | --- |
+| Year | 1st |
+| Semester | 2nd |
+| Academic year | 2025/2026 |
+| Language / Tools | C, x86-64, MIPS assembly |
+| Status | ✅ Completed |
 
 ## 📂 Directory Structure
 
