@@ -1,0 +1,11 @@
+ALUNO
+(
+    _ NumMec _, 
+    Nome, 
+    Sexo,  
+    DataNasc, 
+    . Idade .,  
+    Morada(Rua, Num, Andar?, Localidade, CodPostal), 
+    { NumTelefone },  
+    { Habilitação(Grau, Ano, Instituição) }
+)

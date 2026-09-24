@@ -1,10 +1,10 @@
-# Ficha 1
+# Sheet 1
 
-## 1 
+## 1
 
-- Os id's repetem-se.
-- Email NULL
-- Telefone não é um número (apesar de não haver restriçao quanto à família de caracteres da oluna telefone, não é coerente o valor registrado)
+- The ids are repeated.
+- Email is NULL.
+- The phone is not a number (although there is no restriction on the character set of the phone column, the recorded value is not coherent).
 
 ## 2
 
@@ -38,53 +38,51 @@
 ### 3.1
 
 CO:
-- Presidente: António das Coisas
-- Docentes: António das Coisas
-
+- President: António das Cenas
+- Teachers: António das Cenas
 
 CC:
-- Presidente: Alípio Jorge
-- Docentes: Alípio Jorge, Eduardo Marques
+- President: Alípio Jorge
+- Teachers: Alípio Jorge, Eduardo Marques
 
 F:
-- Presidente: Eduardo Marques
-- Docentes: Fátima Lopes, Eduardo Marques
+- President: Eduardo Marques
+- Teachers: Fátima Lopes, Eduardo Marques
 
 ### 3.2
 
-1. Não existe esse docente
-2. O Eduardo Marques não pertence ao Departamento de Física
-3. O Departamento CC fica sem Presidente
-4. Docentes ficarão sem Departamentos
-5. O Departamento não existe
-6. já existe docente com esse  numero mecanografico
+1. That teacher does not exist
+2. Eduardo Marques does not belong to the Physics Department
+3. The CC Department is left without a President
+4. Teachers would be left without Departments
+5. The Department does not exist
+6. A teacher with that employee number already exists
 
 ## 4
 
 ### 4.1
 
-1. CO: LC | CC: LCC, MIERS (mais que um curso) | F: LF, LC (mais que um curso). Cursos com mais que um departamento responsável: LC
-2. BD: Alípio Jorge, Eduardo Marques | F1: Fátima Lopes | SC: António das Coisas
+1. CO: LC | CC: LCC, MIERSI (more than one course) | F: LF, LC (more than one course). Courses with more than one responsible department: LC
+2. BD: Alípio Jorge, Eduardo Marques | F1: Fátima Lopes | SC: António das Cenas
 3. LC: Física I, Sociologia das Coisas
 
 ### 4.2
 
-1. Não, o docente não faz parte do Departamento de Física
-2. Não, fica a entrada duplicada
-3. Sim, pode pois ele pertence ao departamento de fisica
-4. sim, pode
-5. nao pois os docentes daquela cadeira nao pertecem ao departamento de fisica
-6. sim, pode
-7. sim, pode
-8. nao, a cadeira fica sem docentes associados
-9. nao, a cadeira fica sem cursos associados
+1. No, the teacher is not part of the Physics Department
+2. No, the entry would be duplicated
+3. Yes, it can, since he belongs to the Physics Department
+4. Yes, it can
+5. No, since the teachers of that subject do not belong to the Physics Department
+6. Yes, it can
+7. Yes, it can
+8. No, the subject is left without associated teachers
+9. No, the subject is left without associated courses
 
-## Observação
+## Note
 
-O diagrama tem uma dependência circular entre DOCENTE e DEPARTAMENTO:
+The diagram has a circular dependency between DOCENTE and DEPARTAMENTO:
 
-- `DOCENTE.Departamento` referencia `DEPARTAMENTO.Código` (o departamento tem de existir antes do docente);
-- `DEPARTAMENTO.Presidente` referencia `DOCENTE.Nº Mec.` (o presidente tem de existir antes do departamento).
+- `DOCENTE.Departamento` references `DEPARTAMENTO.Código` (the department must exist before the teacher);
+- `DEPARTAMENTO.Presidente` references `DOCENTE.Nº Mec.` (the president must exist before the department).
 
-Assim, não é possível criar um novo departamento com um novo docente, pois nenhuma das duas entradas pode ser inserida primeiro. Este problema não era pretendido no enunciado.
-
+Therefore, it is not possible to create a new department together with a new teacher, since neither entry can be inserted first. This problem was not intended by the sheet.

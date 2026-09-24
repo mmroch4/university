@@ -1,0 +1,30 @@
+EMPLOYEE (
+    _ CC _,
+    NAME,
+    BIRTH_DATE,
+    . AGE .,
+    ROLE,
+    { CONTACT },
+    EMAIL ?
+)
+
+VENUE (
+    _ ID _,
+    NAME,
+    ADDRESS ( STREET, STREET_NUMBER, FLOOR ?, LOCALITY, POSTAL_CODE )
+)
+
+EVENT (
+    _ ID _,
+    NAME,
+    START_DATE,
+    END_DATE
+)
+
+EMPLOYEE === N === < WORK_AT > === 1 === VENUE
+
+EMPLOYEE --- 1 --- < MANAGE > === 1 === VENUE
+
+EMPLOYEE ---- 1 ---- < SUPERVISE > --- N --- EMPLOYEE
+
+VENUE --- N --- < HOSTS (START_DATE, END_DATE) > === M === EVENT

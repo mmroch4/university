@@ -1,0 +1,21 @@
+USER (
+    _ EMAIL _,
+    NAME,
+    PHONE ?
+)
+
+DOCUMENT (
+    _ URL _,
+    NAME,
+    { TAGS }
+)
+
+DOCUMENT --- N --- < LINKS > --- M --- DOCUMENT
+
+USER --- 1 --- < OWNS > === N === DOCUMENT
+
+DOCUMENT --- N --- < SHARED_WITH (PERMISSIONS) > --- M --- USER
+
+DOCUMENT --------- << TRACKED >> VERSIONS (_ ORDER _, SIZE, CREATED_AT)
+
+USER --- 1 --- < AUTHORS > === N === VERSIONS

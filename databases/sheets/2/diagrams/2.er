@@ -1,0 +1,21 @@
+USER (
+    _ HANDLE _,
+    NAME,
+    EMAIL
+)
+
+POST (
+    _ ID _,
+    CONTENT,
+    { TAGS }
+)
+
+USER --- 1 --- < PUBLISHES > === N === POST
+
+USER --- N --- < FOLLOWS > --- M --- USER
+
+USER --- N --- < LIKES > --- M --- POST
+
+POST --------- << INTERACTIONS >> COMMENTS (_ ORDER _, CONTENT)
+
+USER --- 1 --- < HAS > === N === COMMENTS
