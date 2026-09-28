@@ -18,6 +18,6 @@ dir_path=$(dirname "$file_path")
 
 mkdir -p "$dir_path"/out/
 
-./dbdia/bin/dbdia er "$file_path" "$dir_path"/out/"$filename".png
+./dbdia/bin/dbdia "$2" "$file_path" "$dir_path"/out/"$filename".png
 
 echo "Done!"
