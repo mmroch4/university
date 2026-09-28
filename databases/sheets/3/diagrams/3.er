@@ -1,0 +1,42 @@
+table EMPLOYEE (
+    _ CC _,
+    NAME,
+    INCOME,
+    EMAIL ?,
+    SUPERVISOR ? --> EMPLOYEE.CC,
+    DEPARTMENT --> DEPARTMENT.NAME
+)
+
+table EMPLOYEE_PHONE (
+    _ EMPLOYEE _ --> EMPLOYEE.CC,
+    _ PHONE _
+)
+
+table DEPARTMENT (
+    _ NAME _,
+    ADDRESS --> ADDRESS.ID,
+    MANAGER --> EMPLOYEE.CC
+)
+
+table ADDRESS (
+    _ ID _,
+    ZIP_CODE,
+    LOCALITY,
+    STREET,
+    STREET_NUM,
+    FLOOR ?
+)
+
+table PROJECT (
+    _ NAME _,
+    START_DATE,
+    END_DATE,
+    MANAGER --> EMPLOYEE.CC,
+    DEPARTMENT --> DEPARTMENT.NAME
+)
+
+table EMPLOYEE_WORKS_AT (
+    _ EMPLOYEE _ --> EMPLOYEE.CC,
+    _ PROJECT _ --> PROJECT.NAME,
+    HOURS
+)

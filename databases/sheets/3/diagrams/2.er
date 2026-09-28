@@ -1,0 +1,33 @@
+table USER (
+    _ LOGIN _,
+    NAME,
+    EMAIL
+)
+
+table USER_FOLLOWS (
+    _ FOLLOWER _ --> USER.LOGIN,
+    _ FOLLOWED _ --> USER.LOGIN
+)
+
+table USER_LIKES (
+    _ USER _ --> USER.LOGIN,
+    _ POST _ --> POST.ID
+)
+
+table POST (
+    _ ID _,
+    TEXT,
+    AUTHOR --> USER.LOGIN
+)
+
+table HASHTAG (
+    _ POST _ --> POST.ID,
+    TAG
+)
+
+table COMMENT (
+    _ ID _,
+    TEXT,
+    _ POST _ --> POST.ID,
+    AUTHOR --> USER.LOGIN
+)

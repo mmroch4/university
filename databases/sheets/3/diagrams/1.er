@@ -1,0 +1,44 @@
+table EMPLOYEE (
+    _ CC _,
+    NAME,
+    EMAIL?,
+    BIRTHDAY,
+    ROLE,
+    SUPERVISOR ? --> EMPLOYEE.CC,
+    WORKS_AT --> VENUE.ID
+)
+
+table PHONE (
+    _ CC _ --> EMPLOYEE.CC,
+    _ PHONE _
+)
+
+table VENUE (
+    _ ID _,
+    NAME,
+    ADDRESS --> ADDRESS.ID,
+    MANAGER --> EMPLOYEE.CC
+)
+
+table ADDRESS (
+    _ ID _,
+    STREET,
+    NUM_STREET,
+    FLOOR ?,
+    ZIP_CODE,
+    LOCALITY
+)
+
+table EVENT (
+    _ ID _,
+    NAME,
+    START_DATE,
+    END_DATE
+)
+
+table EVENT_TAKES_PLACE_AT (
+    _ VENUE _ --> VENUE.ID,
+    _ EVENT _ --> EVENT.ID,
+    _ START_DATE_,
+    END_DATE
+)
