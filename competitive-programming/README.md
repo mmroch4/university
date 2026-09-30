@@ -28,7 +28,7 @@ competitive-programming/
 │   ├── 📁 contests/           # Contest submissions
 │   └── 📁 tempo/              # Practice problems
 └── 📁 2026-2027/
-    ├── 📁 mooshak/            # Mooshak problems (1, 2, 3)
+    ├── 📁 mooshak/            # Mooshak problems (1–13)
     └── 📁 codeforces/         # Codeforces problems (by problem id)
 ```
 
@@ -72,6 +72,18 @@ Inside each problem folder, `index.<ext>` is the solution and `1.txt`, `2.txt`, 
 | 1       | Minimum number of moves to fix a sequence, summing the differences between adjacent values    | C++          |
 | 2       | Check whether one string is a subsequence of another, over several test cases                 | C++          |
 | 3       | Count the trailing zeros of `N!` by counting factors of 5 (with `helper.py` and `checker.py` used to explore and verify the idea) | C++ / Python |
+| 4       | Minimum removals so that every remaining value `x` appears exactly `x` times (sort and count runs) | C++          |
+| 5       | Count the students enrolled in the most popular combination(s) of 5 courses (sorted combination as a `map` key) | C++          |
+| 6       | Longest contiguous run of distinct values, with a sliding window and a `map` of last occurrences | C++          |
+| 7       | Simulate a battle between two armies over `B` battlefields per round, strongest against strongest, and print the winner and its survivors (`map` as a counted multiset) | C++          |
+| 8       | Longest stretch of street without a traffic light after each light is added (`set` of positions and a `map` counting gap lengths) | C++          |
+| 9       | Minimum cost to make every window of size `K` equal, tracking the median with two `multiset`s and their running sums | C++          |
+| 10      | Give each customer the most expensive ticket not above their maximum price (`multiset` with `lower_bound`) | C++          |
+| 11      | Sort numbers by number of set bits (descending), breaking ties by smaller value first          | C++          |
+| 12      | Given `N` machines and a target `T`: reads and sorts the machine times                         | C++          |
+| 13      | Share `N` circular pies among `F + 1` people: computes each area and the average share         | C++          |
+
+> **Note:** Problems 12 and 13 are still in progress: 12 only reads and sorts the input, and 13 only prints intermediate values. The problem statements are not in the repo, so the descriptions above are inferred from the code and sample inputs.
 
 ### 🌐 Codeforces
 

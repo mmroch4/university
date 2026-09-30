@@ -19,10 +19,13 @@
 
 ```txt
 data-structures/
-├── 📁 mooshak/          # Mooshak problems (Class 2 — I/O with Scanner)
+├── 📁 mooshak/          # Mooshak problems (Classes 2 and 3)
 │   ├── 120/             # main.java
 │   ├── 121/             # main.java, sample inputs
 │   ├── 183/             # main.java, sample inputs
+│   ├── 186/             # main.java (Rectangle class)
+│   ├── 187/             # main.java (Matrix class), sample input
+│   ├── 216/             # main.java, sample inputs
 │   ├── 243/             # main.java, sample inputs
 │   └── 244/             # main.java, naive.java, sample inputs
 └── 📁 sheets/           # Exercise sheets
@@ -39,17 +42,22 @@ data-structures/
 
 ## ⚖️ Mooshak
 
-`mooshak/` holds the problems solved on [Mooshak](https://mooshak.dcc.fc.up.pt/~edados/), the online judge used in the course, from practical class 2 (*I/O com a classe Scanner*). They are numbered to match the judge's problem set. Each folder contains `main.java` (the solution) and, for most problems, `*.txt` sample inputs used to test locally.
+`mooshak/` holds the problems solved on [Mooshak](https://mooshak.dcc.fc.up.pt/~edados/), the online judge used in the course, from practical class 2 (*I/O com a classe Scanner*) and practical class 3 (classes, objects and 2D arrays). They are numbered to match the judge's problem set. Each folder contains `main.java` (the solution) and, for most problems, `*.txt` sample inputs used to test locally.
 
 | Problem | Idea                                                                                                   | Language |
 | ------- | ------------------------------------------------------------------------------------------------------ | -------- |
 | 120     | Print an `N × N` diamond of `#` on a `.` background                                                     | Java     |
 | 121     | Check whether each of `N` lines is a palindrome, ignoring case and non-letters (`sim` / `nao`)         | Java     |
 | 183     | Read `N` numbers and print their average (2 decimal places) and the range (`max - min`)                | Java     |
+| 186     | `Rectangle` class built on `Point`: `area`, `perimeter`, `pointInside` and `rectangleInside`           | Java     |
+| 187     | `Matrix` class: `identity`, `transpose`, `sum` and `multiply`                                          | Java     |
+| 216     | Longest horizontal or vertical run of `#` in an `L × C` grid, and how many runs have that length       | Java     |
 | 243     | Count how many dishes can be ordered, given a set of banned ingredients (`HashSet` lookup)             | Java     |
 | 244     | Count the primes in `[A, B]` with a sieve of Eratosthenes (`naive.java` is a trial-division reference) | Java     |
 
 > **Note:** The problem statements are not in the repo, so the descriptions above are inferred from the code and sample inputs.
+
+> **Note:** 186 and 187 only contain the class submitted to the judge (no `main` method, and 186 relies on a `Point` class that is not in the repo), so they cannot be run on their own.
 
 ## 🛠️ Usage
 
