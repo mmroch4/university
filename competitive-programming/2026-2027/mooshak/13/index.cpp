@@ -1,31 +1,52 @@
 #include <bits/stdc++.h>
+#include <iomanip>
 
 using namespace std;
 
-#define PI 3.14159265359
+double PI = acos(-1);
+double DIFF = 1e-6;
 
 int main() {
     int T; cin >> T;
 
     while (T--) {
         int N, F; cin >> N >> F;
-        vector<int> radii(N);
-        vector<double> volumes(N);
-        double v;
+        F++;
+        
+        vector<double> areas(N);
+
         int t;
+        double total = 0;
+        
         for (int i = 0; i < N; i++) {
             cin >> t;
-
-            radii[i] = t;
-            volumes[i] = t * t * PI;
-
-            v += volumes[i];
-            cout << t << " : " << volumes[i] << "\n";
+            areas[i] = t * t;
+            total += areas[i];
         };
 
-        cout << "\n\n";
+        double mn = 0;
+        double mx = total;
 
-        cout << v << "  -->  " << v / (F + 1) << "\n";
+        while (mx - mn > DIFF) {
+            double m = mn + (mx - mn) / 2;
+
+            int canMake = 0;
+
+            int i = 0;
+            while (i < N && canMake < F) {
+                canMake += floor(areas[i] / m);
+                i++;
+            }
+
+            if (canMake >= F) {
+                mn = m;
+            }
+            else {
+                mx = m;
+            }
+        }
+
+        cout << setprecision(20) << mx * PI << "\n";
     }
 
 }
